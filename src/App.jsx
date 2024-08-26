@@ -4,7 +4,7 @@ import { AuthProvider,useAuth } from './Components/AuthContext';
 import ProtectedRoute from './Components/ProtectedRoute';
 import MainPage from './MainPage'
 import Login from './Components/Auth/Login';
-import Signup from './Components/Auth/signup';
+import Signup from './Components/Auth/Signup';
 import { Toaster } from 'react-hot-toast';
 import Footer from './Components/Footer/Footer';
 const App = () => {
