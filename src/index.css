@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ background-color: #fffbfb;
+}
+html{
+  scroll-behavior: smooth;
+}
+.sm{
+  display: none;
+}
+.md{
+  display: none;
+}
+@media (max-width:900px) {
+  .xl{
+    display: none;
+  }
+  .md{
+    display: block;
+  }
+}
+@media (max-width:900px) {
+  .sm{
+    display: inline;
+  }
+  .md{
+    display: none;
+  }
+}
+
+footer{
+  font-family: "outfit"
+}
+/* dropdown */
+.dropdown  li{
+  transition: all .2s;
+  padding:10px 20px;
+  margin: 3px;
+  border-radius: 10px;
+  color: #fff;
+}
+.dropdown li:hover{
+  background-color: #ce1228;
+}
+.toaste{
+  font-family: "Poppins";
+}
+.dropdown{
+  position: absolute;
+  background-color: #e4283f;
+  color: #fffbfb;
+  border-radius: 10px;
+  padding: 4px;
+  top: 75px;
+  display: none;
+}
+.dropdown.showdrop{
+  display: block;
+}

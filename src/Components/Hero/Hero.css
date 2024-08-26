@@ -1,0 +1,61 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 6%;
+    background-color: #101212;
+    height: 90vh;
+}
+.hero .hero-text{
+    font-family: "Poppins";
+    color: #fff;
+}
+.hero .hero-text h1{
+    font-size: 70px;
+    font-family: "outfit";
+}
+.hero .hero-text .btns button{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 0;
+}
+.hero .hero-text .btns .fff{
+    color: #000;
+    background-color: #fff;
+}
+.hero .hero-text .btns .fff:hover{
+    background-color: #dddddd;
+}
+.hero .hero-text .btns .red{
+    color: #fff;
+    background-color: #e4283f;
+}
+.hero .hero-text .btns .red:hover{
+    background-color: #f31731;
+}
+.btns{
+    display: flex;
+}
+
+@media (max-width:900px) {
+    .hero .hero-text .btns button{
+        margin: 5px;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        height: unset;
+        padding-bottom: 250px;
+    }
+}
+@media (max-width:770px) {
+    .hero .hero-text h1{
+        font-size: 40px;
+        font-family: "outfit";
+    }
+    .hero img{
+        width: 100%;
+    }
+}

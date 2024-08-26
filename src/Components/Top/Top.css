@@ -1,0 +1,37 @@
+.top{
+    padding: 5% 5%;
+    font-family: "Poppins",sans-serif;
+}
+.top .top-head{
+    text-align: center;
+}
+.top .top-head h1{
+    margin: 10px 0;
+    font-size: 50px;
+}
+.top .top-head h1 span{
+    color:#fc3535 ;
+}
+.top-slider{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.top-slider .slider img{
+    width: 350px;
+    height: 350px;
+}
+@media (max-width:1335px){
+    .top-slider{
+        grid-template-columns:auto auto;
+
+    }
+}
+@media (max-width:980px){
+    .top-slider{
+        grid-template-columns: auto;
+
+    }
+}
